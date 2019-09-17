@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+#Ignore the dataset dir and the virtualenv
+fruit_photos
+venv/
+
 # Distribution / packaging
 .Python
 build/

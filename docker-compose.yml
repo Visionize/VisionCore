@@ -1,0 +1,13 @@
+object_detection:
+  image: visioncore 
+  container_name: visioncore
+  restart: always
+  environment:
+     - TERM=xterm-kitty
+  hostname: '127.0.0.1'
+  ports:
+     - "8888:8888"         #JupyterNB
+
+  volumes:
+     - ~/Code/Visionize/VisionCore/:/VisionCore
+     - ~/Code/Visionize/VisionCore/fruit_photos:/VisionCore/fruit_photos

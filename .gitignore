@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+#Ignore VSCode files
+.vscode/
+
 #Ignore the dataset dir and the virtualenv
 fruit_photos
 venv/
